@@ -1,0 +1,44 @@
+.h1 {
+    text-align: center;
+    color: teal;
+    font-size: 2.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    padding: .8rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.h1 span {
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+.navber {
+    background: darkgreen;
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navber span {
+    width: 100px;
+}
+
+#menulink {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0 .8rem;
+    padding: 8px;
+    color: Red;
+    text-decoration: none;
+    color: #fff;
+}
+
+#menulink:hover {
+    transition: all .4s ease;
+    color: turquoise;
+}
+
